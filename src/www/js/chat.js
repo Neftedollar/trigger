@@ -31,8 +31,9 @@ customCodes[6][1] = '<font color="pink">недавно я познакомилс
 customCodes[7] = [];
 customCodes[7][0] = 'NO.';
 customCodes[7][1] = '<img src="/img/no.jpg" />';
-
-
+customCodes[8] = []
+customCodes[8][0] = /[<]\s*\\*\s*script\s*/gim
+customCodes[8][1] = 'кулхацир в чати'
 
 
 var messages = [];
